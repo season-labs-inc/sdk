@@ -2,6 +2,8 @@
 
 `era_flutter` is the Flutter SDK for Era identity verification.
 
+Maintained by Season Labs: https://seasonlabs.co
+
 ## Install
 
 ```yaml

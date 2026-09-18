@@ -1,7 +1,9 @@
 name: era_flutter
 description: Era visitor continuity and verification for Flutter applications.
 version: 0.1.0
-repository: https://github.com/season-labs-inc/intent-scoring
+homepage: https://seasonlabs.co
+repository: https://github.com/season-labs-inc/sdk
+issue_tracker: https://github.com/season-labs-inc/sdk/issues
 
 environment:
   sdk: ^3.4.0
