@@ -9,7 +9,7 @@ guidance only. Keep contributor, build, and release documentation here.
 The package lives in `era_flutter/`.
 
 ```sh
-cd intent-scoring/sdk/flutter/era_flutter
+cd flutter/era_flutter
 flutter pub get
 flutter test
 flutter analyze
@@ -37,7 +37,7 @@ From the package directory, authenticate with the Dart publisher account and
 inspect the archive before publishing:
 
 ```sh
-cd intent-scoring/sdk/flutter/era_flutter
+cd flutter/era_flutter
 dart pub publish --dry-run
 dart pub publish
 ```
@@ -62,7 +62,7 @@ For local application development before publishing, use a path dependency:
 ```yaml
 dependencies:
   era_flutter:
-    path: ../intent-scoring/sdk/flutter/era_flutter
+    path: ../flutter/era_flutter
 ```
 
 Do not publish secret API keys or test credentials. The package accepts only a
